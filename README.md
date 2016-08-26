@@ -95,6 +95,12 @@ Run:
 
 This will copy our vocabulary list `vocab.txt`, which contains a subset of all the words appearing in the dataset.
 
+Run:
+	
+	mkdir model_params
+
+This will make a directory called `model_params` to save model parameters.
+
 To train a model (see list of models at the beginning of this file), run:
 
     ./train.py model_name
