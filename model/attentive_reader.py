@@ -140,6 +140,7 @@ class Model():
         self.sgd_cost = cost_reg
         self.monitor_vars = [[cost_reg], [error_rate_reg]]
         self.monitor_vars_valid = [[cost], [error_rate]]
+        self.monitor_vars_test = [[pred], [answer]]
 
         # Initialize bricks
         for brick in bricks:
